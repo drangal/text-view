@@ -1,11 +1,9 @@
 import { useSelector } from "react-redux";
 
 const Wallet = () => {
-    const cash = useSelector(state => state.cash);
+  const cash = useSelector((state) => state.cash);
 
-    return (
-        <div>{cash}</div>
-    );
+  return <div>{cash}</div>;
 };
 
-export { Wallet }
+export { Wallet };

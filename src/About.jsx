@@ -1,5 +1,3 @@
 export const About = () => {
-    return (
-        <div>Unusual bank...</div>
-    );
-}
+  return <div>Unusual bank...</div>;
+};

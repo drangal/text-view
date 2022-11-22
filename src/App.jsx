@@ -5,18 +5,17 @@ import { About } from "./About";
 import { Layout } from "./components/Layout";
 
 const App = () => {
-
   return (
     <>
       <Routes>
         <Route path="/*" element={<Layout />}>
-          <Route path="wallet" element={<Wallet />}/>
-          <Route path="opers" element={<Operations />}/>
-          <Route path="about" element={<About />}/>
+          <Route path="wallet" element={<Wallet />} />
+          <Route path="opers" element={<Operations />} />
+          <Route path="about" element={<About />} />
         </Route>
       </Routes>
     </>
-  )
-}
+  );
+};
 
-export { App }
+export { App };
